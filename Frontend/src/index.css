@@ -1,0 +1,16 @@
+@import "tailwindcss";
+.swiper-wrapper {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width : 768px) {
+
+    .swiper-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
